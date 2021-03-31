@@ -1,8 +1,6 @@
 # Flutter_first_app
 <img src="https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif" data-canonical-src="https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif" width="200" height="400" />
 
-A new Flutter project.
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
