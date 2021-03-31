@@ -1,5 +1,7 @@
 # Flutter_first_app
 
+![Alt Text](https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif)
+
 A new Flutter project.
 
 ## Getting Started
