@@ -1,6 +1,7 @@
 # Flutter_first_app
 
-![Alt Text](https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif | width=100)
+![Alt Text]( | width=100)
+<img src="https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif" data-canonical-src="https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif" width="200" height="400" />
 
 A new Flutter project.
 
