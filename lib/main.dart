@@ -7,15 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: RandomWords(),
-        ),
-        body: Center(
-          child: Container(child: RandomWords()),
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      title: 'Startup Name Generator',
+      home: RandomWords(),
     );
   }
 }
