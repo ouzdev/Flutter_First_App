@@ -1,4 +1,4 @@
-# Flutter_first_app
+# Rastgele İngilizce Kelime Oluşturucu
 <img src="https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif" data-canonical-src="https://github.com/ouzdev/Flutter_First_App/blob/master/screenshot.gif" width="200" height="400" />
 
 ## Getting Started
