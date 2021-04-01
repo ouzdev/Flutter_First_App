@@ -8,6 +8,7 @@ class RandomWords extends StatefulWidget {
 }
 
 class _RandomWordsState extends State<RandomWords> {
+  int _currentIndex = 0;
   final _suggestions = <WordPair>[];
   final _biggerFont = TextStyle(fontSize: 18.0);
 
@@ -70,6 +71,42 @@ class _RandomWordsState extends State<RandomWords> {
         title: Text('Rastgele İngilizce Kelime Oluşturucu'),
       ),
       body: _buildSuggestions(),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _currentIndex,
+        items: [
+          BottomNavigationBarItem(
+              icon: Icon(Icons.text_fields),
+              label: "Rastgele Kelime",
+              backgroundColor: Colors.purple),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.search),
+              label: "Kelime Ara",
+              backgroundColor: Colors.orange),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.info),
+              label: "Hakkında",
+              backgroundColor: Colors.pink),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.power_settings_new),
+              label: "Kapat",
+              backgroundColor: Colors.red)
+        ],
+        onTap: (index) {
+          setState(() {
+            _currentIndex = index;
+          });
+        },
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: new FloatingActionButton(
+        child: Container(
+          margin: EdgeInsets.all(10.0),
+          child: Icon(Icons.add),
+        ),
+        onPressed: () {},
+        elevation: 10.0,
+        tooltip: "Ekle",
+      ),
     );
   }
 }
